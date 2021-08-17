@@ -1,0 +1,87 @@
+:root {
+	--primary: #eb9413;
+	--light: #ffffff;
+	--secundary: #b87107;
+}
+
+.bg-light {background-color: var(--light) !important;}
+
+body {
+	overflow: hidden;
+	font-family: 'Multi' sans-serif;
+	font-size: 18px;
+}
+
+.logotipe-fluid {
+	max-width:280px;
+	max-height: 90px;
+	width: auto;
+	height: auto;
+}
+
+.card {
+	width: 100%;
+	max-height: 400px;
+	height: auto;
+	position: relative;
+	background-size: cover;		
+}
+
+.btn {
+	max-width: 30%;
+	width: auto;
+	position: absolute;
+	left: 35%;
+	top: 70%;
+}
+
+.btn-primary {
+	background-color: var(--primary);
+	border-color: var(--primary);
+	top: 90%;
+	width: 15%;
+	height: 13%;
+	left: 30%;
+	border-radius: 15px;
+	font-family: 'Open Sans';
+	font-size: 20px;
+}
+
+.btn-primary2 {
+	background-color: var(--primary);
+	border-color: var(--primary);
+	top: 90%;
+	left: 55%;
+	color: white;
+	width: 15%;
+	height: 13%;
+	border-radius: 15px;
+	font-family: 'Open Sans';
+	font-size: 20px;
+}
+
+.btn-primary:hover {
+background-color: var(--secundary);	
+border-color: var(--secundary);
+}
+
+.btn-primary2:hover {
+background-color: var(--secundary);	
+border-color: var(--secundary);
+color:white;
+}
+
+.igm {
+	background-color: rgba(0,0,0,0.8);
+	filter:brightness(0.4);
+	position: relative;	
+}
+
+.card .title {
+  position: absolute;             
+  color: white;
+  font-size: 7vh;
+  margin-left: 15%;
+  margin-top: 6%;
+  font-family: 'Open Sans', bold;
+}
